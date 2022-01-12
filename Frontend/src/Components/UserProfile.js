@@ -63,7 +63,7 @@ const UserProfile = () => {
             </div>
 
             <div>
-            <h4 className="text-style-user"> {Math.round(userInfo.mileage_points)}</h4>
+            <h4 className="text-style-user"> {userInfo.mileage_points}</h4>
             </div>
                     </div>    
              

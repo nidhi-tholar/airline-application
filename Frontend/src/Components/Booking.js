@@ -133,15 +133,15 @@ payment:{
                             {/* <button className="btn btn-primary sm-5">Login</button>  */}
                             
                             <div>
-                                <h4 className="text-style-user">Your current Rewards points:  {Math.round(userInfo.mileage_points)}</h4>
+                                <h4 className="text-style-user">Your current Rewards points:  {userInfo.mileage_points}</h4>
                             </div>
                             <div>
-                                <h4 className="text-style-user"> Allowed points to redeem:  {Math.round(maxRewards)} </h4>
+                                <h4 className="text-style-user"> Allowed points to redeem:  {maxRewards} </h4>
    
                             </div>
                             <div>
                                 <h4 className="text-style-user">Effective price: </h4>
-                                <h4 className="text-style-bold">$ {Math.round(flightInfo.price - maxRewards)}</h4>
+                                <h4 className="text-style-bold">$ {flightInfo.price - maxRewards}</h4>
                             </div>
                             <button onClick={(e)=>bookFlight(e)} className="btn btn-primary sm-5">Book</button> 
                             

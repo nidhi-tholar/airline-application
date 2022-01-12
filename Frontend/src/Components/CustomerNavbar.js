@@ -3,7 +3,7 @@ import '../App.css'
 import 'bootstrap/dist/css/bootstrap.css'
 
 
-import { Navbar,Nav,NavItem,Form,FormControl,Button,Modal} from 'react-bootstrap';
+import { Navbar,Nav} from 'react-bootstrap';
 const CustomerNavbar = () => {
     return (
         <div>

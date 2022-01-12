@@ -26,31 +26,6 @@ const AddFlight = () => {
 
 
 
-    const airports=[{
-    "code" : "SJC",
-    "name" : "San Jose International Airport",
-    "city" : "San Jose"
-    },
-    {
-    "code" : "SFO",
-    "name" : "San Francisco International Airport",
-    "city" : "San Francisco"
-    },
-  
-            
-]
-  
-    
-    const aircrafts = [{
-    "name" : "Airbus A380",
-    },
-    {
-    "name" : "Boeing 737",
-    },
-    {
-    "name" : "DreamLiner 787",
-    },
-]
 
     const addNewFlight = (e)=>{
         e.preventDefault();
