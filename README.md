@@ -4,6 +4,7 @@
 Python <br/>
 Flask <br/>
 MongoDB <br/>
+React
 
 
 ### Database design
