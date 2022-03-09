@@ -1,10 +1,11 @@
-## Backend of an Airline Reservation and Rewards system
+Airline Reservation and Rewards system
+An application to search and book flights while managing Mileage Rewards of Users. The application also allowed modifications and cancellations of reservations.
 
 ### Tech Stack
+React <br/>
 Python <br/>
 Flask <br/>
-MongoDB <br/>
-React
+MongoDB 
 
 
 ### Database design
