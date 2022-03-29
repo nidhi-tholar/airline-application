@@ -2,11 +2,10 @@ Airline Reservation and Rewards system
 An application to search and book flights while managing Mileage Rewards of Users. The application also allowed modifications and cancellations of reservations.
 
 ### Tech Stack
-React <br/>
 Python <br/>
 Flask <br/>
-MongoDB 
-
+MongoDB  <br/>
+[React Front-End-Repo](https://github.com/nidhi-tholar/airline-ui)
 
 ### Database design
 User:<br/>
